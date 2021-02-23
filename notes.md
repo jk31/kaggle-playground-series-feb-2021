@@ -32,9 +32,13 @@ https://www.kaggle.com/c/tabular-playground-series-feb-2021/data
 * linear regression
     * y_test = 0.8639449464826138
     * kaggle = 0.86314
+    * with df = df.drop(columns=["cont5", "cont8", "cont9", "cont12", "cat4", "cat6"]) to 0.867 on y_test
 * ridge
+    * y_test = 0.8671933522616535
 * lasso
+    * y_test = 0.8883934260473165 with alpha= 0.1
 * randomforest
+    * without optimization: Test error: 0.8583117566205638
 
 ### Model Tuning
 
